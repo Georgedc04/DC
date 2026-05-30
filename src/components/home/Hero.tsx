@@ -104,7 +104,7 @@ export default function Hero() {
               <div className="absolute inset-0 rounded-2xl border border-white/3 pointer-events-none" />
               
               <Image
-                src="/Charthero.png"
+                src="/chartsticker.png"
                 alt="Trading Platform Dashboard Analytics"
                 width={1200}
                 height={840}
