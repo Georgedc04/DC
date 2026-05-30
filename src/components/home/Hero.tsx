@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { Dancing_Script } from "next/font/google";
-
+import Link from "next/link";
 
 const dancing = Dancing_Script({
   subsets: ["latin"],
@@ -15,7 +15,7 @@ export default function Hero() {
       {/* 1. BACKGROUND TEXTURES & EFFECTS */}
       {/* Subtle Noise/Texture Overlay */}
       <div
-        className="absolute inset-0 z-0 opacity-20 mix-blend-overlay pointer-events-none"
+        className="absolute inset-0 z-0 opacity-80 mix-blend-overlay pointer-events-none"
         style={{
           backgroundImage: "url('/texture.jpg')",
           backgroundRepeat: "repeat",
@@ -27,7 +27,7 @@ export default function Hero() {
       <div
         className="absolute inset-0 z-0 opacity-20 pointer-events-none select-none mask-image-[linear-gradient(to_bottom,white_white,transparent)]"
         style={{
-          backgroundImage: "url('/Chart.png')",
+          backgroundImage: "url('/chartsticker.png')",
           backgroundPosition: "center 40%",
           backgroundRepeat: "no-repeat",
           backgroundSize: "1300px",
@@ -73,12 +73,13 @@ export default function Hero() {
               {/* Primary Glowing Glass Pill (Inspired by Framer University (@learnframer) on X.jpg) */}
               <div className="group relative inline-flex">
                 <div className="absolute -inset-1 rounded-full bg-[#D4A017]/40 blur-md opacity-70 transition duration-500 group-hover:opacity-100 group-hover:blur-lg" />
-                <button className="relative flex items-center justify-center rounded-full bg-linear-to-b from-[#1c160a] to-[#070502] px-8 py-4 font-semibold text-zinc-100 tracking-wide border border-[#D4A017]/70 shadow-[inset_0_1px_1px_rgba(255,255,255,0.15),0_12px_24px_-4px_rgba(0,0,0,0.8)] transition-all duration-300 hover:scale-[1.03] hover:border-[#D4A017] active:scale-[0.98]">
+                <Link href="/login" 
+                    className="relative flex items-center justify-center rounded-full bg-linear-to-b from-[#1c160a] to-[#070502] px-8 py-4 font-semibold text-zinc-100 tracking-wide border border-[#D4A017]/70 shadow-[inset_0_1px_1px_rgba(255,255,255,0.15),0_12px_24px_-4px_rgba(0,0,0,0.8)] transition-all duration-300 hover:scale-[1.03] hover:border-[#D4A017] active:scale-[0.98]">
                   <span className="bg-linear-to-b from-white via-zinc-200 to-zinc-400 bg-clip-text text-transparent">
                     Get Started Free
                   </span>
                   <div className="absolute bottom-0 left-1/2 h-px w-1/2 -translate-x-1/2 bg-linear-to-r from-transparent via-[#D4A017]/60 to-transparent" />
-                </button>
+                </Link>
               </div>
 
               {/* Secondary Sleek Border-Fill Pill */}
