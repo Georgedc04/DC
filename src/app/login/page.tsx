@@ -19,8 +19,8 @@ export default function Login() {
       />
 
       {/* Subtle Radial Floor Glows */}
-      <div className="absolute left-1/2 top-1/2 h-150 w-150 -translate-x-1/2 -translate-y-1/2 rounded-full bg-[#D4A017]/5 blur-[140px] pointer-events-none" />
-      <div className="absolute right-[-10%] bottom-[-10%] h-100 w-100 rounded-full bg-[#D4A017]/5 blur-[100px] pointer-events-none" />
+      <div className="absolute left-1/2 top-1/2 h-150 w-150 -translate-x-1/2 -translate-y-1/2 rounded-full bg-[#0D50DE]/5 blur-[140px] pointer-events-none" />
+      <div className="absolute right-[-10%] bottom-[-10%] h-100 w-100 rounded-full bg-[#0D50DE]/5 blur-[100px] pointer-events-none" />
 
       {/* 2. MAIN SPLIT-SCREEN GLASS CONTAINER */}
       <div className="relative z-10 w-full max-w-5xl rounded-3xl border border-zinc-900 bg-zinc-950/40 backdrop-blur-xl shadow-[0_32px_64px_-16px_rgba(0,0,0,0.85)] overflow-hidden">
@@ -35,15 +35,15 @@ export default function Login() {
             
             {/* Top Branding Header */}
             <div className="mb-8">
-              <Link href="/" className="inline-block text-2xl font-black tracking-wider text-[#D4A017]">
+              <Link href="/" className="inline-block text-2xl font-black tracking-wider text-[#0D50DE]">
                 DC
               </Link>
             </div>
 
             {/* Core Credentials Card */}
             <div className="w-full">
-              <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-[#D4A017]/20 bg-[#D4A017]/5 px-3 py-1">
-                <span className="text-[10px] font-semibold tracking-wider uppercase text-[#D4A017]/90">
+              <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-[#0D50DE]/20 bg-[#0D50DE]/5 px-3 py-1">
+                <span className="text-[10px] font-semibold tracking-wider uppercase text-[#0D50DE]/90">
                   Trading • Analytics • Growth
                 </span>
               </div>
@@ -65,7 +65,7 @@ export default function Login() {
                     <input
                       type="email"
                       placeholder="name@company.com"
-                      className="w-full rounded-full border border-zinc-800 bg-zinc-950/60 px-5 py-3.5 text-sm text-white placeholder-zinc-600 outline-hidden transition-all duration-300 focus:border-[#D4A017]/50 focus:bg-zinc-950 focus:shadow-[0_0_15px_rgba(212,160,23,0.06)]"
+                      className="w-full rounded-full border border-zinc-800 bg-zinc-950/60 px-5 py-3.5 text-sm text-white placeholder-zinc-600 outline-hidden transition-all duration-300 focus:border-[#0D50DE]/50 focus:bg-zinc-950 focus:shadow-[0_0_15px_rgba(212,160,23,0.06)]"
                       required
                     />
                   </div>
@@ -76,7 +76,7 @@ export default function Login() {
                     <label className="block text-xs font-medium uppercase tracking-wider text-zinc-500">
                       Password
                     </label>
-                    <Link href="#" className="text-xs font-medium text-[#D4A017]/80 transition-colors hover:text-[#D4A017]">
+                    <Link href="#" className="text-xs font-medium text-[#0D50DE]/80 transition-colors hover:text-[#0D50DE]">
                       Forgot Password?
                     </Link>
                   </div>
@@ -84,7 +84,7 @@ export default function Login() {
                     <input
                       type="password"
                       placeholder="••••••••"
-                      className="w-full rounded-full border border-zinc-800 bg-zinc-950/60 px-5 py-3.5 text-sm text-white placeholder-zinc-600 outline-hidden transition-all duration-300 focus:border-[#D4A017]/50 focus:bg-zinc-950 focus:shadow-[0_0_15px_rgba(212,160,23,0.06)]"
+                      className="w-full rounded-full border border-zinc-800 bg-zinc-950/60 px-5 py-3.5 text-sm text-white placeholder-zinc-600 outline-hidden transition-all duration-300 focus:border-[#0D50DE]/50 focus:bg-zinc-950 focus:shadow-[0_0_15px_rgba(212,160,23,0.06)]"
                       required
                     />
                   </div>
@@ -92,12 +92,12 @@ export default function Login() {
 
                 {/* Framer-Inspired High-Fidelity Glow Button */}
                 <div className="group relative inline-flex w-full pt-4">
-                  <div className="absolute -inset-0.5 rounded-full bg-[#D4A017]/40 blur-md opacity-60 transition duration-500 group-hover:opacity-90 group-hover:blur-lg" />
-                  <button type="submit" className="relative w-full flex items-center justify-center rounded-full bg-linear-to-b from-[#1c160a] to-[#070502] py-4 font-semibold text-zinc-100 tracking-wide border border-[#D4A017]/50 shadow-[inset_0_1px_1px_rgba(255,255,255,0.15),0_12px_24px_-4px_rgba(0,0,0,0.8)] transition-all duration-300 hover:scale-[1.01] hover:border-[#D4A017] active:scale-[0.99]">
+                  <div className="absolute -inset-0.5 rounded-full bg-[#0D50DE]/40 blur-md opacity-60 transition duration-500 group-hover:opacity-90 group-hover:blur-lg" />
+                  <button type="submit" className="relative w-full flex items-center justify-center rounded-full bg-linear-to-b from-[#3DC8FF to-[#070502] py-4 font-semibold text-zinc-100 tracking-wide border border-[#0D50DE]/50 shadow-[inset_0_1px_1px_rgba(255,255,255,0.15),0_12px_24px_-4px_rgba(0,0,0,0.8)] transition-all duration-300 hover:scale-[1.01] hover:border-[#0D50DE] active:scale-[0.99]">
                     <span className="bg-linear-to-b from-white via-zinc-200 to-zinc-400 bg-clip-text text-transparent">
                       Access Account
                     </span>
-                    <div className="absolute bottom-0 left-1/2 h-px w-1/3 -translate-x-1/2 bg-linear-to-r from-transparent via-[#D4A017]/60 to-transparent" />
+                    <div className="absolute bottom-0 left-1/2 h-px w-1/3 -translate-x-1/2 bg-linear-to-r from-transparent via-[#0D50DE]/60 to-transparent" />
                   </button>
                 </div>
               </form>
@@ -106,7 +106,7 @@ export default function Login() {
             {/* Footer Form Navigation */}
             <div className="mt-8 text-center text-xs text-zinc-500">
               Don&apos;t have an account?{" "}
-              <Link href="#" className="font-semibold text-[#D4A017] hover:underline">
+              <Link href="#" className="font-semibold text-[#0D50DE] hover:underline">
                 Sign Up
               </Link>
             </div>
@@ -117,7 +117,7 @@ export default function Login() {
           <div className="hidden lg:flex lg:col-span-6 xl:col-span-7 relative items-center justify-center p-12 bg-linear-to-br from-zinc-900/10 via-black/40 to-zinc-950 border-l border-zinc-900/60 overflow-hidden">
             
             {/* Ambient Backlight for the Chart showcase */}
-            <div className="absolute left-1/2 top-1/2 h-100 w-100 -translate-x-1/2 -translate-y-1/2 rounded-full bg-[#D4A017]/10 blur-[90px] pointer-events-none" />
+            <div className="absolute left-1/2 top-1/2 h-100 w-100 -translate-x-1/2 -translate-y-1/2 rounded-full bg-[#0D50DE]/10 blur-[90px] pointer-events-none" />
 
             <div className="relative w-full max-w-md rounded-2xl border border-zinc-800/40 bg-zinc-900/10 p-3 backdrop-blur-xs shadow-[0_24px_50px_rgba(0,0,0,0.6)]">
               {/* Inner subtle panel edge line */}

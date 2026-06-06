@@ -24,7 +24,7 @@ export default function LogoMarquee() {
           <div className="shrink-0 text-center lg:text-left">
             <p className="text-xs font-bold uppercase tracking-widest text-zinc-500">
               Backed by institutional
-              <span className="ml-1 text-[#D4A017] opacity-90">liquidity providers</span>
+              <span className="ml-1 text-[#0D50DE] opacity-90">liquidity providers</span>
             </p>
           </div>
 

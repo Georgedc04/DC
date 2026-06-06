@@ -10,7 +10,7 @@ export default function Logo() {
 
         {/* C */}
         <span
-          className="relative z-10 inline-block bg-linear-to-b from-[#fbe3a1] via-[#D4A017] to-[#8a6105] bg-clip-text text-transparent transition-all duration-500 group-hover:translate-x-[0.02em]"
+          className="relative z-10 inline-block bg-linear-to-b from-[#0D50DE] via-[#03B7FF] to-[#0D50DE] bg-clip-text text-transparent transition-all duration-500 group-hover:translate-x-[0.02em]"
           style={{
             maskImage:
               "radial-gradient(circle at -15% 50%, transparent 42%, white 43%)",

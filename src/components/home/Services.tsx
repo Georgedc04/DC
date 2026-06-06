@@ -45,14 +45,14 @@ export default function Services() {
       
       {/* SECTION HEADER CHUNK */}
       <div className="flex flex-col items-center text-center mb-20">
-        <div className="mb-4 inline-flex items-center gap-2 rounded-full border border-[#D4A017]/20 bg-[#D4A017]/5 px-3 py-1">
-          <span className="text-[10px] font-semibold tracking-wider uppercase text-[#D4A017]/90">
+        <div className="mb-4 inline-flex items-center gap-2 rounded-full border border-[#0D50DE]/20 bg-[#0D50DE]/5 px-3 py-1">
+          <span className="text-[10px] font-semibold tracking-wider uppercase text-[#0D50DE]/90">
             Educational Programs
           </span>
         </div>
         <h2 className="text-3xl font-extrabold tracking-tight text-white sm:text-4xl md:text-5xl leading-tight text-balance">
           Systematic blueprints to trade <br />
-          <span className="bg-linear-to-r from-[#D4A017] via-[#f3cb65] to-[#D4A017] bg-clip-text text-transparent">
+          <span className="bg-linear-to-r from-[#0D50DE] via-[#3FBDEE] to-[#0D50DE] bg-clip-text text-transparent">
             with absolute authority.
           </span>
         </h2>
@@ -68,13 +68,13 @@ export default function Services() {
             key={index}
             className={`group relative rounded-3xl border flex flex-col justify-between p-8 md:p-10 backdrop-blur-md transition-all duration-500 shadow-[0_24px_48px_-12px_rgba(0,0,0,0.7)] ${
               program.isPopular 
-                ? "border-[#D4A017]/40 bg-zinc-950/40" 
+                ? "border-[#0D50DE]/40 bg-zinc-950/40" 
                 : "border-zinc-800/40 bg-zinc-950/10 hover:border-zinc-700/60"
             }`}
           >
             {/* Top Outer Edge Glow for the highlighted tier card */}
             {program.isPopular && (
-              <div className="absolute top-0 left-1/2 h-px w-2/3 -translate-x-1/2 bg-linear-to-r from-transparent via-[#D4A017]/60 to-transparent" />
+              <div className="absolute top-0 left-1/2 h-px w-2/3 -translate-x-1/2 bg-linear-to-r from-transparent via-[#0D50DE]/60 to-transparent" />
             )}
 
             {/* Inner bounding capsule rim reflection line */}
@@ -85,7 +85,7 @@ export default function Services() {
               <div className="flex items-center justify-between gap-4 mb-6">
                 <span className={`text-[10px] font-bold tracking-wider uppercase px-3 py-1 rounded-full ${
                   program.isPopular 
-                    ? "bg-[#D4A017]/10 text-[#D4A017] border border-[#D4A017]/20" 
+                    ? "bg-[#0D50DE]/10 text-[#0D50DE] border border-[#0D50DE]/20" 
                     : "bg-zinc-900 text-zinc-400 border border-zinc-800"
                 }`}>
                   {program.badge}
@@ -107,8 +107,8 @@ export default function Services() {
               <ul className="space-y-4 border-t border-zinc-900/80 pt-6 mb-10">
                 {program.features.map((feature, fIdx) => (
                   <li key={fIdx} className="flex items-start gap-3 text-sm text-zinc-300 font-normal">
-                    <div className="shrink-0 mt-0.5 flex h-4 w-4 items-center justify-center rounded-full bg-[#D4A017]/10 border border-[#D4A017]/20">
-                      <Check className="h-2.5 w-2.5 text-[#D4A017]" strokeWidth={3} />
+                    <div className="shrink-0 mt-0.5 flex h-4 w-4 items-center justify-center rounded-full bg-[#0D50DE]/10 border border-[#0D50DE]/20">
+                      <Check className="h-2.5 w-2.5 text-[#0D50DE]" strokeWidth={3} />
                     </div>
                     <span>{feature}</span>
                   </li>
@@ -120,11 +120,11 @@ export default function Services() {
             <div className="w-full">
               <div className="group/btn relative inline-flex w-full">
                 <div className={`absolute -inset-0.5 rounded-full blur-md opacity-40 transition duration-500 group-hover/btn:opacity-90 ${
-                  program.isPopular ? "bg-[#D4A017]/50 blur-lg" : "bg-zinc-700/30"
+                  program.isPopular ? "bg-[#0D50DE]/50 blur-lg" : "bg-zinc-700/30"
                 }`} />
                 <button className={`relative w-full flex items-center justify-center rounded-full py-4 font-semibold tracking-wide border transition-all duration-300 group-hover/btn:scale-[1.01] active:scale-[0.99] text-sm ${
                   program.isPopular
-                    ? "bg-linear-to-b from-[#1c160a] to-[#070502] text-zinc-100 border-[#D4A017]/50 shadow-[inset_0_1px_1px_rgba(255,255,255,0.15)] group-hover/btn:border-[#D4A017]"
+                    ? "bg-linear-to-b from-[#3DC8FF to-[#070502] text-zinc-100 border-[#0D50DE]/50 shadow-[inset_0_1px_1px_rgba(255,255,255,0.15)] group-hover/btn:border-[#0D50DE]"
                     : "bg-zinc-900/50 text-zinc-300 border-zinc-800 group-hover/btn:border-zinc-600 group-hover/btn:text-white"
                 }`}>
                   <span className={program.isPopular ? "bg-linear-to-b from-white to-zinc-300 bg-clip-text text-transparent" : ""}>

@@ -34,7 +34,7 @@ export default function Stats() {
     <section className="mx-auto max-w-7xl px-6 py-20 md:py-32 bg-[#030303] text-zinc-100">
       
       {/* BACKGROUND CORNER GLOW FOR THE SECTION */}
-      <div className="absolute right-[-5%] bottom-1/4 h-96 w-96 rounded-full bg-[#D4A017]/5 blur-[120px] pointer-events-none" />
+      <div className="absolute right-[-5%] bottom-1/4 h-96 w-96 rounded-full bg-[#0D50DE]/5 blur-[120px] pointer-events-none" />
 
       {/* DOCK-STYLE METRIC CARD GRID */}
       <div className="relative rounded-3xl border border-zinc-800/40 bg-zinc-950/20 p-8 md:p-12 backdrop-blur-md shadow-[0_24px_48px_-12px_rgba(0,0,0,0.7)] overflow-hidden">
@@ -43,7 +43,7 @@ export default function Stats() {
         <div className="absolute inset-0 rounded-3xl border border-white/2 pointer-events-none" />
         
         {/* Subtle bottom gold sheen line */}
-        <div className="absolute bottom-0 left-1/2 h-px w-1/2 -translate-x-1/2 bg-linear-to-r from-transparent via-[#D4A017]/30 to-transparent" />
+        <div className="absolute bottom-0 left-1/2 h-px w-1/2 -translate-x-1/2 bg-linear-to-r from-transparent via-[#0D50DE]/30 to-transparent" />
 
         <div className="grid grid-cols-1 gap-10 sm:grid-cols-2 lg:grid-cols-4 divide-y sm:divide-y-0 lg:divide-x divide-zinc-900/60">
           {statsData.map((stat, index) => (
@@ -55,8 +55,8 @@ export default function Stats() {
             >
               
               {/* LARGE METRIC NUMBER (Gleaming Gold Gradient) */}
-              <div className="text-4xl md:text-5xl font-black tracking-tight bg-linear-to-b from-white via-zinc-200 to-zinc-400 bg-clip-text text-transparent group-hover:from-[#D4A017] group-hover:to-[#f3cb65] transition-all duration-300">
-                <span className="bg-linear-to-r from-[#D4A017] via-[#f3cb65] to-[#D4A017] bg-clip-text text-transparent">
+              <div className="text-4xl md:text-5xl font-black tracking-tight bg-linear-to-b from-white via-zinc-200 to-zinc-400 bg-clip-text text-transparent group-hover:from-[#0D50DE] group-hover:to-[#3FBDEE] transition-all duration-300">
+                <span className="bg-linear-to-r from-[#0D50DE] via-[#3FBDEE] to-[#0D50DE] bg-clip-text text-transparent">
                   {stat.number}
                 </span>
               </div>

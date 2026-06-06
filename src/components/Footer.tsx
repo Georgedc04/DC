@@ -8,7 +8,7 @@ export default function Footer() {
     <footer className="relative z-0 w-full overflow-hidden bg-[#030303] px-4 pb-12 pt-6 text-zinc-400 md:px-6">
       
       {/* Ambient Glow */}
-      <div className="pointer-events-none absolute bottom-0 left-[-10%] -z-10 h-80 w-80 rounded-full bg-[#D4A017]/5 blur-[100px]" />
+      <div className="pointer-events-none absolute bottom-0 left-[-10%] -z-10 h-80 w-80 rounded-full bg-[#0D50DE]/5 blur-[100px]" />
 
       <div className="mx-auto max-w-7xl rounded-3xl border border-zinc-800/40 bg-[#09090b]/20 p-8 backdrop-blur-md shadow-[0_8px_32px_rgba(0,0,0,0.4),inset_0_1px_1px_rgba(255,255,255,0.15)] md:p-12">
 
@@ -29,14 +29,14 @@ export default function Footer() {
               the journey from beginner to professional trader.
             </p>
 
-            <div className="flex w-full max-w-sm items-center gap-2 rounded-full border border-zinc-800 bg-zinc-950/60 p-1.5 transition-colors duration-300 focus-within:border-[#D4A017]/40">
+            <div className="flex w-full max-w-sm items-center gap-2 rounded-full border border-zinc-800 bg-zinc-950/60 p-1.5 transition-colors duration-300 focus-within:border-[#0D50DE]/40">
               <input
                 type="email"
                 placeholder="Enter your email"
                 className="w-full bg-transparent px-4 py-1.5 text-xs text-white placeholder-zinc-600 outline-none"
               />
 
-              <button className="cursor-pointer rounded-full border border-[#D4A017]/30 bg-linear-to-b from-[#1c160a] to-[#070502] px-5 py-2 text-[11px] font-bold tracking-wide text-zinc-100 shadow-[inset_0_1px_1px_rgba(255,255,255,0.15)] transition-all duration-300 hover:scale-[1.02] hover:border-[#D4A017]">
+              <button className="cursor-pointer rounded-full border border-[#0D50DE]/30 bg-linear-to-b from-[#3DC8FF to-[#070502] px-5 py-2 text-[11px] font-bold tracking-wide text-zinc-100 shadow-[inset_0_1px_1px_rgba(255,255,255,0.15)] transition-all duration-300 hover:scale-[1.02] hover:border-[#0D50DE]">
                 Subscribe
               </button>
             </div>
@@ -44,7 +44,7 @@ export default function Footer() {
 
           {/* TRADING */}
           <div className="flex flex-col gap-3.5 lg:col-span-2 lg:col-start-7">
-            <h4 className="text-xs font-bold uppercase tracking-widest text-[#D4A017]">
+            <h4 className="text-xs font-bold uppercase tracking-widest text-[#0D50DE]">
               Trading
             </h4>
 
@@ -67,7 +67,7 @@ export default function Footer() {
 
           {/* ABOUT */}
           <div className="flex flex-col gap-3.5 lg:col-span-2">
-            <h4 className="text-xs font-bold uppercase tracking-widest text-[#D4A017]">
+            <h4 className="text-xs font-bold uppercase tracking-widest text-[#0D50DE]">
               About
             </h4>
 
@@ -90,7 +90,7 @@ export default function Footer() {
 
           {/* LEGAL */}
           <div className="flex flex-col gap-3.5 lg:col-span-2">
-            <h4 className="text-xs font-bold uppercase tracking-widest text-[#D4A017]">
+            <h4 className="text-xs font-bold uppercase tracking-widest text-[#0D50DE]">
               Legal
             </h4>
 

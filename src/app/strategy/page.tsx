@@ -42,7 +42,7 @@ const steps = [
 
 export default function StrategyPage() {
   return (
-    <main className="min-h-screen bg-[#030303] text-zinc-100 overflow-x-hidden selection:bg-[#D4A017]/20 selection:text-[#D4A017]">
+    <main className="min-h-screen bg-[#030303] text-zinc-100 overflow-x-hidden selection:bg-[#0D50DE]/20 selection:text-[#0D50DE]">
       
       {/* GLOBAL BACKGROUND LAYER SYSTEM */}
       <div
@@ -66,18 +66,18 @@ export default function StrategyPage() {
 
       {/* ================= SECTION 1: HERO ENTRANCE ================= */}
       <section className="relative mx-auto max-w-7xl px-6 pt-40 pb-20 md:pb-28">
-        <div className="absolute top-1/4 right-0 h-100 w-100 rounded-full bg-[#D4A017]/5 blur-[120px] pointer-events-none" />
+        <div className="absolute top-1/4 right-0 h-100 w-100 rounded-full bg-[#0D50DE]/5 blur-[120px] pointer-events-none" />
         
         <div className="max-w-4xl">
-          <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-[#D4A017]/20 bg-[#D4A017]/5 px-4 py-1.5 backdrop-blur-md">
-            <span className="text-[10px] font-bold tracking-wider uppercase text-[#D4A017]/90">
+          <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-[#0D50DE]/20 bg-[#0D50DE]/5 px-4 py-1.5 backdrop-blur-md">
+            <span className="text-[10px] font-bold tracking-wider uppercase text-[#0D50DE]/90">
               DC FX Framework
             </span>
           </div>
 
           <h1 className="text-5xl font-extrabold tracking-tight text-white sm:text-7xl md:text-8xl leading-[0.95] text-balance">
             The Algorithmic <br />
-            <span className="mt-2 block bg-linear-to-r from-[#D4A017] via-[#f3cb65] to-[#D4A017] bg-clip-text text-transparent pb-2">
+            <span className="mt-2 block bg-linear-to-r from-[#0D50DE] via-[#3FBDEE] to-[#0D50DE] bg-clip-text text-transparent pb-2">
               Trading Strategy
             </span>
           </h1>
@@ -94,7 +94,7 @@ export default function StrategyPage() {
           <h2 className="text-3xl font-extrabold tracking-tight text-white sm:text-4xl md:text-5xl">
             Core Principles
           </h2>
-          <div className="mt-3 h-px w-20 bg-linear-to-r from-transparent via-[#D4A017]/40 to-transparent" />
+          <div className="mt-3 h-px w-20 bg-linear-to-r from-transparent via-[#0D50DE]/40 to-transparent" />
         </div>
 
         <div className="grid gap-6 grid-cols-2 lg:grid-cols-4 max-w-6xl mx-auto">
@@ -128,7 +128,7 @@ export default function StrategyPage() {
           <div className="lg:col-span-4 lg:sticky lg:top-32 flex flex-col items-start">
             <h2 className="text-3xl font-extrabold tracking-tight text-white sm:text-4xl md:text-5xl leading-tight">
               The Protocol <br />
-              <span className="bg-linear-to-r from-[#D4A017] via-[#f3cb65] to-[#D4A017] bg-clip-text text-transparent">
+              <span className="bg-linear-to-r from-[#0D50DE] via-[#3FBDEE] to-[#0D50DE] bg-clip-text text-transparent">
                 Step-by-Step
               </span>
             </h2>
@@ -151,12 +151,12 @@ export default function StrategyPage() {
                   <div className="flex flex-col gap-6 sm:flex-row sm:items-start justify-between">
                     <div className="flex items-start gap-5">
                       {/* Icon Box */}
-                      <div className="shrink-0 flex h-12 w-12 items-center justify-center rounded-2xl border border-zinc-800 bg-black/40 text-zinc-500 group-hover:text-[#D4A017] group-hover:border-[#D4A017]/30 transition-colors duration-500">
+                      <div className="shrink-0 flex h-12 w-12 items-center justify-center rounded-2xl border border-zinc-800 bg-black/40 text-zinc-500 group-hover:text-[#0D50DE] group-hover:border-[#0D50DE]/30 transition-colors duration-500">
                         <IconComponent className="h-5 w-5" strokeWidth={1.5} />
                       </div>
                       
                       <div>
-                        <h3 className="text-2xl font-bold tracking-tight text-white mb-3 transition-colors duration-300 group-hover:text-[#D4A017]">
+                        <h3 className="text-2xl font-bold tracking-tight text-white mb-3 transition-colors duration-300 group-hover:text-[#0D50DE]">
                           {step.title}
                         </h3>
                         <p className="text-sm leading-relaxed text-zinc-400 font-normal max-w-2xl">
@@ -166,7 +166,7 @@ export default function StrategyPage() {
                     </div>
 
                     {/* Numeric Step Badge */}
-                    <div className="text-4xl font-black text-zinc-800 tracking-tighter group-hover:text-[#D4A017]/10 transition-colors duration-500 sm:text-right select-none">
+                    <div className="text-4xl font-black text-zinc-800 tracking-tighter group-hover:text-[#0D50DE]/10 transition-colors duration-500 sm:text-right select-none">
                       {step.number}
                     </div>
                   </div>
@@ -182,7 +182,7 @@ export default function StrategyPage() {
       <section className="mx-auto max-w-7xl px-6 py-20 md:py-28 border-t border-zinc-900/40">
         <div className="relative rounded-3xl border border-zinc-800/40 bg-zinc-950/10 p-8 md:p-14 backdrop-blur-md shadow-[0_24px_50px_rgba(0,0,0,0.7)] overflow-hidden">
           <div className="absolute inset-0 rounded-3xl border border-white/2 pointer-events-none" />
-          <div className="absolute right-0 bottom-0 h-80 w-80 rounded-full bg-[#D4A017]/3 blur-[90px] pointer-events-none" />
+          <div className="absolute right-0 bottom-0 h-80 w-80 rounded-full bg-[#0D50DE]/3 blur-[90px] pointer-events-none" />
 
           <div className="mb-12">
             <h2 className="text-3xl font-extrabold tracking-tight text-white sm:text-4xl">
@@ -204,8 +204,8 @@ export default function StrategyPage() {
                 key={idx}
                 className="flex items-start gap-4 rounded-xl border border-zinc-900/80 bg-black/40 p-5 font-medium text-sm text-zinc-300 leading-relaxed"
               >
-                <div className="shrink-0 mt-0.5 flex h-4 w-4 items-center justify-center rounded-full bg-[#D4A017]/10 border border-[#D4A017]/20">
-                  <Check className="h-2.5 w-2.5 text-[#D4A017]" strokeWidth={3} />
+                <div className="shrink-0 mt-0.5 flex h-4 w-4 items-center justify-center rounded-full bg-[#0D50DE]/10 border border-[#0D50DE]/20">
+                  <Check className="h-2.5 w-2.5 text-[#0D50DE]" strokeWidth={3} />
                 </div>
                 <span>{rule}</span>
               </div>
@@ -218,7 +218,7 @@ export default function StrategyPage() {
       <section className="mx-auto max-w-5xl px-6 py-20 md:py-28">
         <div className="group relative rounded-3xl border border-zinc-800/50 bg-linear-to-b from-zinc-950/60 to-black/90 p-12 md:p-16 text-center shadow-[0_32px_60px_-15px_rgba(0,0,0,0.9)] backdrop-blur-md overflow-hidden">
           <div className="absolute inset-0 rounded-3xl border border-white/2 pointer-events-none" />
-          <div className="absolute left-1/2 top-1/2 h-80 w-80 -translate-x-1/2 -translate-y-1/2 rounded-full bg-[#D4A017]/5 blur-[80px] pointer-events-none" />
+          <div className="absolute left-1/2 top-1/2 h-80 w-80 -translate-x-1/2 -translate-y-1/2 rounded-full bg-[#0D50DE]/5 blur-[80px] pointer-events-none" />
 
           <h2 className="text-4xl font-black tracking-tight text-white sm:text-5xl text-balance">
             Master the Mechanics
@@ -231,8 +231,8 @@ export default function StrategyPage() {
           {/* Premium Framer Button Action Group */}
           <div className="mt-10 flex flex-wrap justify-center items-center gap-4">
             <div className="group/btn relative inline-flex">
-              <div className="absolute -inset-1 rounded-full bg-[#D4A017]/40 blur-md opacity-60 transition duration-500 group-hover/btn:opacity-100 group-hover/btn:blur-lg" />
-              <button className="relative flex items-center justify-center rounded-full bg-linear-to-b from-[#1c160a] to-[#070502] px-8 py-4 font-bold text-xs tracking-wider uppercase text-zinc-100 border border-[#D4A017]/40 shadow-[inset_0_1px_1px_rgba(255,255,255,0.15)] transition-all duration-300 hover:scale-[1.02] hover:border-[#D4A017] cursor-pointer">
+              <div className="absolute -inset-1 rounded-full bg-[#0D50DE]/40 blur-md opacity-60 transition duration-500 group-hover/btn:opacity-100 group-hover/btn:blur-lg" />
+              <button className="relative flex items-center justify-center rounded-full bg-linear-to-b from-[#3DC8FF to-[#070502] px-8 py-4 font-bold text-xs tracking-wider uppercase text-zinc-100 border border-[#0D50DE]/40 shadow-[inset_0_1px_1px_rgba(255,255,255,0.15)] transition-all duration-300 hover:scale-[1.02] hover:border-[#0D50DE] cursor-pointer">
                 <span className="bg-linear-to-b from-white to-zinc-300 bg-clip-text text-transparent">
                   Access Framework Now
                 </span>
