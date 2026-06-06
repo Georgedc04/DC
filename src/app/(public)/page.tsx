@@ -21,16 +21,6 @@ export default function HomePage() {
 
     <PayoutSection />
 
-      {/* 4. PRODUCT VALUE ANCHORING (FEATURES) */}
-      <Features />
-
-      {/* 5. CREDIBILITY ACCELERATOR (STATS) */}
-      <Stats />
-
-      <TradingMilestones />
-      {/* 3. CORE MONETIZATION BLUEPRINT (SERVICES / COURSE PACKS) */}
-      <Services />
-
     </main>
   );
 }
